@@ -418,7 +418,7 @@ describe('HTTP: Measure reception ', function () {
             headers: {
                 'fiware-service': 'smartgondor',
                 'fiware-servicepath': '/gardens',
-                'content-type': 'application/soap+xml'
+                'content-type': 'application/soap+xml; action:"urn:notificarEvento"; \tcharset=utf-8'
             },
             qs: {
                 i: 'MQTT_2',
